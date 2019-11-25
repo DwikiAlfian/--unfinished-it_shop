@@ -1,0 +1,218 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap'); */
+@font-face {
+    font-family: 'Pro Sans';
+    src: url('/font/LeagueSpartan-Bold.otf');
+    font-weight: bold;
+    font-style: normal;
+
+}
+body{
+    margin: 0;
+    font-family: 'Arcon';
+}
+p{
+    margin: 0;
+    margin-top: 5px;
+    font-family: 'League Spartan';    
+}
+.line{
+    height: 3px;
+    width: 30px;
+    margin: 5px;
+    background: rgb(255, 255, 255);
+}
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgb(5, 1, 59);
+}
+
+.navbar li{
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background: rgb(11, 1, 150);
+}
+
+.card{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+input{
+    border: 1px 1px 1px 1px;
+    padding-left: 15px;
+    height: 40px;
+    width: 485px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    transition: 0.2s;
+}
+input:focus{
+    border-radius: 6px;
+    border-color: blue;
+}
+
+button{
+    background-color: rgb(0, 20, 36);
+    color: white;
+    height: 40px;
+    border-style: none;
+    width: 100px;
+    transition: 0.5s;
+}
+
+button:hover{
+    transition: 0.5s;
+    transform: scale(0.95);
+    background-color: rgb(1, 120, 150);
+    color: white;
+    height: 40px;
+    border-style: none;
+    width: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+.card-primary{
+    background-color: white; 
+    padding: 20px; 
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.3); 
+    margin: 10px; 
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 420px 220px 10px;
+    height: 440px;
+}
+
+/* IMAGE CARD */
+#i1 .card-primary-image{
+    height: 400px;
+    width: 400px;
+    background-image: url('../img/razer-blade.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#i1 .card-primary-image:hover{
+    transform: scale(0.9);
+}
+
+#i1 p::after{
+    font-size: 40px;
+    content: 'Razer Blade';
+}
+
+/* END OF IMAGE CARD */
+
+/* IMAGE CARD */
+#i2 .card-primary-image{
+    height: 200px;
+    width: 200px;
+    background-image: url('../img/sony_a7s_mkii.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#i2 .card-primary-image:hover{
+    transform: scale(0.9);
+}
+
+#i2 p::after{
+    font-size: 25px;
+    content: 'Sony A7S Mark II';
+}
+/* END OF IMAGE CARD */
+
+/* IMAGE CARD */
+#i3 .card-primary-image{
+    height: 200px;
+    width: 200px;
+    background-image: url('../img/galaxy_fold.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+#i3 .card-primary-image:hover{
+    transform: scale(0.9);
+}
+
+#i3 p::after{
+    font-size: 25px;
+    content: 'Galaxy Fold';
+}
+/* END OF IMAGE CARD */
+
+.grid-product{
+    display: grid;
+    padding-top: 50px;
+    grid-template-columns: auto auto auto;
+}
+.card-product{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.3);
+    transition: 0.2s;
+    margin-bottom: 10px;
+}
+.card-product:hover{
+    transform: scale(0.98);
+}
+.card-list{
+    color: transparent;
+    transition: 0.2s;
+}
+.card-list:hover{
+    background-color: rgba(255,255,255,0.5);
+    color: black;
+}
+.card-list a p{
+    color: transparent;
+    transition: 0.2s;
+}
+.card-list:hover a p{
+    color: black;
+}
+select{
+    width: 700px;
+    height: 45px;
+    transition: 0.3s;
+}
+select:focus{
+    border-color: blue;
+    border-radius: 10px;
+}
